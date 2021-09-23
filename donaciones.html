@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donaciones</title>
+    <link rel="shortcut icon" href="icon/logo.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;500;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="main-menu"> 
+        <div class="main-menu__container">
+            <a class="main-menu__alogo" href="#"><img class="main-menu__logo" src="img/logoAzul.PNG" alt=""></a>
+            <div class="toggle-container">
+                <h3>LANG</h3>
+                <input type="checkbox" id="en" class="toggle translate">
+            </div>
+            <span class="main-menu__icon"><img id="main-menu__icon" src="icon/menuIcon.png" alt="menu"></span>
+            <nav class="main-menu__nav">
+                <ul>
+                    <li><a class="main-menu__link lang" key="inicio-menu" href="index.html">INICIO</a></li>
+                    <li><a class="main-menu__link lang" key="nosotros-menu" href="nosotros.html">QUÍENES SOMOS</a></li>
+                    <li><a class="main-menu__link lang" key="galeria-menu" href="galeria.html">GALERÍA</a></li>
+                    <li><a class="main-menu__link1 lang" id="main-menu__link--active" key="main-menu__link--active" href="#">DONACIONES</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="toggle-container">
+        <h3>LANG</h3>
+        <input type="checkbox" id="en" class="toggle translate">
+    </div>
+
+    <div class="colabora" id="colabora">
+        <h2 class="keynotes__title lang" key="tituloDonaciones">Las 3 formas de colaborar</h2>
+        <p class="keynotes__text lang" key="donacionesTextoGeneral">Desde donaciones en efectivo, en especie, comprando nuestros productos o compartiendo tus conocimientos, talento y tiempo, hay muchas maneras de contribuir con nuestra asociación.</p>
+        <div class="colabora__container">
+            <a href="#donacion">
+                <div class="colabora__forma">
+                    <img src="img/card.png" alt="">
+                    <h3 class="colabora__forma-title lang" key="linkEfectivo">Dona en Efectivo</h3>
+                </div>
+            </a>
+            <a href="#donacionEspecie">
+                <div class="colabora__forma">
+                    <img class="guitar" src="img/guitar.png" alt="">
+                    <h3 class="colabora__forma-title lang" key="linkEspecie">Dona en Especie</h3>
+                </div>
+            </a>
+            <a href="#donacionCompra">
+                <div class="colabora__forma">
+                    <img src="img/cap.png" alt="">
+                    <h3 class="colabora__forma-title lang" key="linkProductos">Compra Nuestros Artículos</h3>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div id="donacion"></div>
+    <div class="colabora-efectivo" id="efectivo">
+        <div class="colabora-efectivo__container">
+            <h3 class="colabora-efectivo__title lang" key="linkEfectivo">Dona en Efectivo</h3>
+            <p class="colabora-efectivo__text lang" key="colabora-efectivo__text">Si tienes la posibilidad de donar, estos son los datos de la cuenta que concentra los donativos, hay distintas formas de hacerlo:</p>
+            <ul class="colabora-efectivo__list">
+                <li class="lang" key="deposito">Depositar</li>
+                <li class="lang" key="transferencia">Hacer una transferencia</li>
+                <li class="lang" key="depositoOxxo">Depositar en tiendas Oxxo</li>
+            </ul>
+        </div>
+
+        <div class="colabora-efectivo__cuenta">
+            <ul>
+                <li><strong class="lang" key="colabora-efectivo__banco">Banco: </strong>BBVA</li>
+                <li><strong class="lang" key="colabora-efectivo__tarjeta">Número de tarjeta: </strong>4152 3138 2211 2483</li>
+                <li><strong class="lang" key="colabora-efectivo__nombre">Nombre: </strong>Omar Granados</li>
+            </ul>
+        </div>
+        <div class="donation__division"><p>O</p></div>
+        <form action="https://www.paypal.com/donate" method="post" target="_blank" class="paypalButton__container">
+            <input type="hidden" name="hosted_button_id" value="279LG5UNT6LLU" />
+            <input type="image" class="paypalButton" src="icon/paypalButton.png" border="0" name="submit" title="Colabora con nosotros con Paypal!" alt="Donate with PayPal button" />
+            <img alt="" border="0" src="https://www.paypal.com/es_MX/i/scr/pixel.gif" width="1" height="1" />
+        </form>
+   </div>
+
+   <div id="donacionEspecie"></div>
+   <div class="colabora-efectivo instrumentos" id="efectivo">
+    <div class="colabora-efectivo__container">
+        <h3 class="colabora-efectivo__title lang" key="linkEspecie">Dona en especie</h3>
+        <p class="colabora-efectivo__text lang" key="textoEspecie1">Todos tenemos en casa materiales educativos, libros, incluso instrumentos musicales que simplemente ya no usamos y que sin embargo pueden ser muy valiosos para alguien que desea aprender.</p>
+        <p class="colabora-efectivo__link lang" key="textoEspecie2">Mándanos un correo a: info@keynotesoflove.com</p> <br>
+        <p class="colabora-efectivo__text lang" key="textoEspecie3">Visita nuestra lista de compras en Amazon</p>
+        <br>
+        <p class="colabora-efectivo__boton lang" key="textoEspecie4"><a href="">¡Quiero ayudar!</a></p>
+    </div>
+</div>
+    <div id="donacionCompra"></div>
+    <div class="colabora-productos">
+        <h2 class="keynotes__title lang" key="linkProductos">Compra nuestros productos</h2>
+
+        <div class="colabora-productos__container">
+            <div class="colabora-producto">
+                <div class="producto__container">
+                    <div  class="producto__img">
+                        <img src="img/Tasa.png" alt="">  
+                    </div>
+                    
+                    <div class="colabora-producto__info">
+                        <h3 class="lang" key="producto__taza">Taza Keynotes</h3>
+                        <p class="lang" key="producto__taza-descripcion">Taza para café con nuestro logo</p>    
+                        <span>$10.00 MXN</span>
+                        <div class="colabora-producto__button">
+                            <a class="lang" key="producto__boton-compra" href="#">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="colabora-producto">
+                <div class="producto__container">
+                    <div  class="producto__img">
+                        <img src="img/pluma.png" alt="">
+                    </div>
+                    <div class="colabora-producto__info">
+                        <h3 class="lang" key="producto__pluma">Pluma Keynotes</h3>
+                        <p class="lang" key="producto__pluma-descripcion">Pluma-desarmador</p>    
+                        <span>$3.00 MXN</span>
+                        <div class="colabora-producto__button">
+                            <a class="lang" key="producto__boton-compra" href="#">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="colabora-producto">
+                <div class="producto__container">
+                    <div  class="producto__img">
+                        <img src="img/playera.png" alt="">
+                    </div>
+                    <div class="colabora-producto__info">
+                        <h3 class="lang" key="producto__playera">Playera Keynotes</h3>
+                        <p class="lang" key="producto__playera-descripcion">Para niños en talla chica y grande</p>    
+                        <span>$20.00 MXN</span>
+                        <div class="colabora-producto__button">
+                            <a class="lang" key="producto__boton-compra" href="#">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="colabora-producto">
+                <div class="producto__container">
+                    <div  class="producto__img">
+                        <img src="img/tapabocas.png" alt="">
+                    </div>
+                    <div class="colabora-producto__info">
+                        <h3 class="lang" key="producto__cubrebocas">Cubrebocas Keynotes</h3>
+                        <p class="lang" key="producto__cubrebocas-descripcion">Con filtro en color azul</p>    
+                        <span>$7.00 MXN</span>
+                        <div class="colabora-producto__button">
+                            <a class="lang" key="producto__boton-compra" href="#">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer__content">
+            <div class="footer__box">
+                <a class="footer__alogo" href=""><img class="footer__logo" src="icon/logo.png" alt=""></a>
+                <div class="footer__box-content">
+                    <p class="footer__text lang" key="textoFooter">Key Notes of Love A. C. es una asociación mexicana cuyo objetivo principal es contribuir a la educación de nuestras niñas, niños y adolescentes en situaciones vulnerables, a través de talleres de música, lectura, arte, mecatrónica, entre otros.</p>
+                    <div class="footer__social">
+                        <a class="footer__icon-back face" href="https://www.facebook.com/keynotesoflove"><img class="footer__icon" src="icon/Facebook.png" alt=""></a>
+                        <a class="footer__icon-back insta" href="https://www.instagram.com/keynotesoflove/"><img class="footer__icon" src="icon/instagram.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer__box">
+                <h2 class="footer__box-title lang" key="tituloLinksFooter">Sitio</h2>
+                <div class="footer__line"></div>
+                <div class="footer__box-content">
+                    <a href="index.html" class="footer__box-link lang" key="inicioFooter">Inicio</a>    
+                    <a href="nosotros.html" class="footer__box-link lang" key="nosotrosFooter">¿Quíenes somos?</a>
+                    <a href="galeria.html" class="footer__box-link lang" key="galeriaFooter">Galería</a>
+                    <a href="donaciones.html" class="footer__box-link lang" key="donacionesFooter">Donaciones</a>
+                </div>
+            </div>
+
+            <div class="footer__box" id="contact">
+                <h2 class="footer__box-title lang" key="tituloContacto">Contacto</h2>
+                <div class="footer__line"></div>
+                <div class="footer__box-content">
+                    <div class="footer__contact">
+                        <img class="icon__mail" src="icon/email.png" alt="">
+                        <p class="footer__contact-info">info@keynotesoflove.com</p>
+                    </div>
+                    <div class="footer__contact">
+                        <img class="icon__phone" src="icon/phone.png" alt="">
+                        <p class="footer__contact-info">22 27 08 12 22</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+    </footer>
+    <script src="js/script.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/language.js"></script>
+</body>
+</html>
