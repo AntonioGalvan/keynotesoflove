@@ -1107,6 +1107,8 @@ font-family: 'Raleway', helvetica, arial;
     display: flex;
     align-items: center;
     cursor: pointer;
+    text-decoration: none;
+    color: white;
 }
 
 .colabora-efectivo__container .colabora-efectivo__link:hover{
