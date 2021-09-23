@@ -1,0 +1,16 @@
+{
+    "es":
+    {
+        "inicio-menu": "INICIO",
+        "nosotros-menu": "QUÍENES SOMOS",
+        "galeria-menu": "GALERÍA",
+        "main-menu__link--active": "DONACIONES"
+    },
+    "en":
+    {
+        "inicio-menu": "HOME",
+        "nosotros-menu": "ABOUT US",
+        "galeria-menu": "GALLERY",
+        "main-menu__link--active": "DONATIONS"
+    } 
+}
