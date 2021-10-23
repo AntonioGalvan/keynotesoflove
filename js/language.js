@@ -54,16 +54,20 @@ var arrLang = {
         "tituloNoticias": "Noticias",
         /*INICIO NOTICIAS ===========================================*/
         "tituloNoticia1": "Nuevos integrantes",
-        "textoNoticia1": "Lorem español ipsum dolor, sit amet consectetur adipisicing elit. Quam, eos?",
-        "noticiaCompleta1": "Lorem espanish dolor sit amet consectetur adipisicing elit. Eius qui adipisci fuga, tempora dolorum deserunt porro reiciendis ex quo consectetur facilis earum, fugiat harum placeat. Impedit, aperiam nesciunt suscipit aspernatur architecto dolor tempora, quo, deleniti dolore temporibus unde fugiat nam! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas soluta laudantium iure molestias. Incidunt, corrupti alias! Delectus libero reprehenderit aliquam. ",
+        "textoNoticia1": "Estamos muy contentos de que más personas  que persiguen el mismo interés de la fundación.",
+        "noticiaCompleta1": "Estamos muy contentos de que más personas  que persiguen el mismo interés de la fundación, se unan a nuestro proyecto. Betsi e Ivan son dos jóvenes apasionados que buscan dejar una huella a través de Key Notes que impacten a muchos  niños y jóvenes en nuestra sociedad.",
 
-        "tituloNoticia2": "Noticia 2",
-        "textoNoticia2": "Lorem español ipsum dolor, sit amet consectetur adipisicing elit. Quam, eos?",
-        "noticiaCompleta2": "Lorem espanish2 dolor sit amet consectetur adipisi ",
+        "tituloNoticia2": "Evento con causa",
+        "textoNoticia2": "Estamos muy emocionados de compartir con ustedes nuestro primer evento con causa",
+        "noticiaCompleta2": "Estamos muy emocionados de compartir con ustedes nuestro primer evento con causa, en el que tendremos la oportunidad de escuchar a un gran artista como lo es Omar Granados, con el fin de recaudar fondos para poder seguir impartiendo talleres en más instituciones.",
 
-        "tituloNoticia3": "Noticia 3",
-        "textoNoticia3": "Lorem espanish3",
-        "noticiaCompleta3": "Lorem español 3 completo",
+        "tituloNoticia3": "Recital",
+        "textoNoticia3": "Tenemos nuestro recital de navidad con las pequeñas de IPODERAC Atlixco",
+        "noticiaCompleta3": "Como cada año desde el inicio de nuestro proyecto, tenemos nuestro recital de navidad con las pequeñas de IPODERAC Atlixco, lo cual nos tiene muy emocionados, ya que las niñas se han seguido preparando para desarrollar más sus habilidades en el piano.",
+
+        "tituloNoticia4": "Noticia 4",
+        "textoNoticia4": "Lorem espanish4",
+        "noticiaCompleta4": "Lorem español 4 completo",
         /*FIN NOTICIAS ===========================================*/
         "textoFooter": "Key Notes of Love A. C. es una asociación mexicana cuyo objetivo principal es contribuir a la educación de nuestras niñas, niños y adolescentes de puebla en situaciones vulnerables, a través de talleres de música, lectura, arte, mecatrónica, entre otros. ",
         "tituloLinksFooter": "Sitio",
@@ -83,6 +87,7 @@ var arrLang = {
         "equipoTitulo": "Nuestro Equipo",
         "info__director": "Director General",
         "info__confundador": "Cofundadora",
+        "info__integrante": "Integrante",
         /*Texto en donaciones*/
         "tituloDonaciones": "Las 3 formas de colaborar",
         "donacionesTextoGeneral": "Desde donaciones en efectivo, en especie, comprando nuestros productos o compartiendo tus conocimientos, talento y tiempo, hay muchas maneras de contribuir con nuestra asociación.",
@@ -123,17 +128,21 @@ var arrLang = {
         /*Texto en inicio*/
         "tituloNoticias": "News",
         /*INICIO NOTICIAS ===========================================*/
-        "tituloNoticia1": "First News",
-        "textoNoticia1": "Lorem english ipsum dolor, sit amet consectetur adipisicing elit. Quam, eos?",
-        "noticiaCompleta1": "Lorem english dolor sit amet consectetur adipisicing elit. Eius qui adipisci fuga, tempora dolorum deserunt porro reiciendis ex quo consectetur facilis earum, fugiat harum placeat. Impedit, aperiam nesciunt suscipit aspernatur architecto dolor tempora, quo, deleniti dolore temporibus unde fugiat nam! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas soluta laudantium iure molestias. Incidunt, corrupti alias! Delectus libero reprehenderit aliquam. ",
+        "tituloNoticia1": "New members of our team",
+        "textoNoticia1": "We are very happy when people who share our beliefs and aspirations.",
+        "noticiaCompleta1": "We are very happy when people who share our beliefs and aspirations, join us. Betsi and Ivan are passionate people who, through Key Notes of Love, want to have an impact in the lives of children and teenagers.",
         
-        "tituloNoticia2": "Second News",
-        "textoNoticia2": "Lorem english ipsum dolor, sit amet consectetur adipisicing elit. Quam, eos?",
-        "noticiaCompleta2": "Lorem english2 dolor sit amet consectetur adipisi ",
+        "tituloNoticia2": "Concert for a Cause",
+        "textoNoticia2": "We are so excited to share with you our first “Concert for a Cause”",
+        "noticiaCompleta2": "We are so excited to share with you our first “Concert for a Cause” in which Mr Omar Granados, our favorite artist, will perform for us live. We want to keep bringing more workshops to many children in different  institutions and we need your help to accomplish it; your donation matters to us.",
 
-        "tituloNoticia3": "Third News",
-        "textoNoticia3": "Lorem english3",
-        "noticiaCompleta3": "Lorem english 3 completo",
+        "tituloNoticia3": "Recital",
+        "textoNoticia3": "We are planning on a Christmas recital with the girls of Ipoderac Atlixco",
+        "noticiaCompleta3": "Like every year since we started, we are planning on a Christmas recital with the girls of Ipoderac Atlixco. It’s an excellent opportunity to share with you all the musical and pianistic progress that these girls have made over the last year.",
+
+        "tituloNoticia4": "Fourth News",
+        "textoNoticia4": "Lorem english4",
+        "noticiaCompleta4": "Lorem english 4 completo",
         /*FIN NOTICIAS ===========================================*/
         "textoFooter": "Key Notes of Love is a Mexican association with a main goal: to contribute to the education of children and teenagers in Puebla city in vulnerable situations, by offering them workshops and classes in many areas like music, art, reading, mechatronics.",
         "tituloLinksFooter": "Site",
@@ -153,6 +162,7 @@ var arrLang = {
         "equipoTitulo": "Our Team",
         "info__director": "Managing Director",
         "info__confundador": "Co-Founder",
+        "info__integrante": "Member",
         /*Texto en donaciones*/
         "tituloDonaciones": "The 3 ways to contribute",
         "donacionesTextoGeneral": "There are many ways to contribute to our association: cash, material donations, buying our products or sharing with us your knowledge, talent, and time",
