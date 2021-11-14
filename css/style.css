@@ -1398,3 +1398,20 @@ font-family: 'Raleway', helvetica, arial;
         padding: 0 .3em;
     }
 }
+
+.demo
+{
+    position: fixed;
+    bottom: 10px;
+    left: 5%;
+    width: 90%;
+    margin: 0 auto;
+    padding: .8rem;
+    font-family: 'Montserrat', helvetica;
+    color: white;
+    background-color: rgba(238, 76, 55, 0.712);
+    font-size: .7em;
+    z-index: 50;
+    justify-self: center;
+    text-align: center;
+}
