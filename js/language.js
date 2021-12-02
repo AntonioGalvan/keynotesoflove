@@ -168,7 +168,7 @@ var arrLang = {
         "donacionesTextoGeneral": "There are many ways to contribute to our association: cash, material donations, buying our products or sharing with us your knowledge, talent, and time",
         "linkEfectivo": "Cash Donations",
         "colabora-efectivo__text": "If you have the possibility to donate, these are the data of the account that concentrates the donations, there are different ways to do it:",
-        "linkEspecie": "Material Donatios",
+        "linkEspecie": "Material Donations",
         "linkProductos": "Buy our products",
         "deposito": "Direct deposit",
         "transferencia": "Bank transfer",
